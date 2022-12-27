@@ -79,5 +79,5 @@ const addUID = (obj) => {
 };
 let documentOne = addUID({ name: "yoshi", age: 48 });
 let documentTwo = addUID("hello");
-// both are okay, because the <Y> acts as any and allows almost anything to be assigned, regardless of form
+// both are okay, because the <T> acts as any and allows almost anything to be assigned, regardless of form.
 console.log(documentOne);
